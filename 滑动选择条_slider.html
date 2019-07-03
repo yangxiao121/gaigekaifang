@@ -1,0 +1,590 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>滑动选择条 Slider</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=375, user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/滑动选择条_slider/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/滑动选择条_slider/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- 滑动输入条 (动态面板) -->
+      <div id="u3027" class="ax_default" data-label="滑动输入条">
+        <div id="u3027_state0" class="panel_state" data-label="State1" style="">
+          <div id="u3027_state0_content" class="panel_state_content">
+
+            <!-- 滑动区域 (动态面板) -->
+            <div id="u3028" class="ax_default" data-label="滑动区域">
+              <div id="u3028_state0" class="panel_state" data-label="State1" style="">
+                <div id="u3028_state0_content" class="panel_state_content">
+
+                  <!-- 灰色背景 (矩形) -->
+                  <div id="u3029" class="ax_default _形状2" data-label="灰色背景">
+                    <div id="u3029_div" class=""></div>
+                    <!-- Unnamed () -->
+                    <div id="u3030" class="text" style="display:none; visibility: hidden">
+                      <p><span></span></p>
+                    </div>
+                  </div>
+
+                  <!-- 背景线条 (动态面板) -->
+                  <div id="u3031" class="ax_default" data-label="背景线条">
+                    <div id="u3031_state0" class="panel_state" data-label="State1" style="">
+                      <div id="u3031_state0_content" class="panel_state_content">
+
+                        <!-- 有色背景 (矩形) -->
+                        <div id="u3032" class="ax_default _形状2" data-label="有色背景">
+                          <div id="u3032_div" class=""></div>
+                          <!-- Unnamed () -->
+                          <div id="u3033" class="text" style="display:none; visibility: hidden">
+                            <p><span></span></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 滑块 (动态面板) -->
+                  <div id="u3034" class="ax_default" data-label="滑块">
+                    <div id="u3034_state0" class="panel_state" data-label="1" style="">
+                      <div id="u3034_state0_content" class="panel_state_content">
+
+                        <!-- Unnamed (矩形) -->
+                        <div id="u3035" class="ax_default _形状2">
+                          <div id="u3035_div" class=""></div>
+                          <!-- Unnamed () -->
+                          <div id="u3036" class="text" style="display:none; visibility: hidden">
+                            <p><span></span></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 数值 (气泡) -->
+            <div id="u3037" class="ax_default _默认样式 ax_default_hidden" data-label="数值" style="display:none; visibility: hidden">
+              <img id="u3037_img" class="img " src="images/滑动选择条_slider/数值_u3037.png"/>
+              <!-- Unnamed () -->
+              <div id="u3038" class="text">
+                <p><span>100</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (导航栏) -->
+
+      <!-- 导航栏 (动态面板) -->
+      <div id="u3040" class="ax_default" data-label="导航栏">
+        <div id="u3040_state0" class="panel_state" data-label="State1" style="">
+          <div id="u3040_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (矩形) -->
+            <div id="u3041" class="ax_default _默认样式">
+              <div id="u3041_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u3042" class="text">
+                <p><span>标题</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u3043" class="ax_default _默认样式">
+              <div id="u3043_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u3044" class="text">
+                <p><span style="font-family:'FontAwesome';font-weight:410;"></span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;"> 返回</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u3045" class="ax_default _默认样式">
+        <div id="u3045_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u3046" class="text">
+          <p style="font-size:12px;line-height:24px;"><span style="font-family:'FontAwesome';font-size:16px;color:#999999;"></span><span style="font-family:'Arial Normal', 'Arial';color:#999999;"> 元件说明</span></p><p style="font-size:12px;line-height:20px;"><span style="font-family:'Arial Normal', 'Arial';color:#CCCCCC;">允许用户在一个区间中选择特定值，例如：控制屏幕的显示亮度。默认状态下，左边为最小值，右边为最大值。</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u3047" class="ax_default _默认样式">
+        <div id="u3047_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u3048" class="text">
+          <p><span>基本使用</span></p>
+        </div>
+      </div>
+
+      <!-- 滑动输入条 (动态面板) -->
+      <div id="u3049" class="ax_default" data-label="滑动输入条">
+        <div id="u3049_state0" class="panel_state" data-label="State1" style="">
+          <div id="u3049_state0_content" class="panel_state_content">
+
+            <!-- 滑动区域 (动态面板) -->
+            <div id="u3050" class="ax_default" data-label="滑动区域">
+              <div id="u3050_state0" class="panel_state" data-label="State1" style="">
+                <div id="u3050_state0_content" class="panel_state_content">
+
+                  <!-- 灰色背景 (矩形) -->
+                  <div id="u3051" class="ax_default _形状2" data-label="灰色背景">
+                    <div id="u3051_div" class=""></div>
+                    <!-- Unnamed () -->
+                    <div id="u3052" class="text" style="display:none; visibility: hidden">
+                      <p><span></span></p>
+                    </div>
+                  </div>
+
+                  <!-- 背景线条 (动态面板) -->
+                  <div id="u3053" class="ax_default" data-label="背景线条">
+                    <div id="u3053_state0" class="panel_state" data-label="State1" style="">
+                      <div id="u3053_state0_content" class="panel_state_content">
+
+                        <!-- 有色背景 (矩形) -->
+                        <div id="u3054" class="ax_default _形状2" data-label="有色背景">
+                          <div id="u3054_div" class=""></div>
+                          <!-- Unnamed () -->
+                          <div id="u3055" class="text" style="display:none; visibility: hidden">
+                            <p><span></span></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 滑块 (动态面板) -->
+                  <div id="u3056" class="ax_default" data-label="滑块">
+                    <div id="u3056_state0" class="panel_state" data-label="1" style="">
+                      <div id="u3056_state0_content" class="panel_state_content">
+
+                        <!-- Unnamed (矩形) -->
+                        <div id="u3057" class="ax_default _形状2">
+                          <div id="u3057_div" class=""></div>
+                          <!-- Unnamed () -->
+                          <div id="u3058" class="text" style="display:none; visibility: hidden">
+                            <p><span></span></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u3059" class="ax_default _默认样式">
+        <div id="u3059_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u3060" class="text">
+          <p><span>带工具提示</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u3061" class="ax_default _默认样式">
+        <div id="u3061_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u3062" class="text">
+          <p><span>自定义颜色</span></p>
+        </div>
+      </div>
+
+      <!-- 滑动输入条 (动态面板) -->
+      <div id="u3063" class="ax_default" data-label="滑动输入条">
+        <div id="u3063_state0" class="panel_state" data-label="State1" style="">
+          <div id="u3063_state0_content" class="panel_state_content">
+
+            <!-- 滑动区域 (动态面板) -->
+            <div id="u3064" class="ax_default" data-label="滑动区域">
+              <div id="u3064_state0" class="panel_state" data-label="State1" style="">
+                <div id="u3064_state0_content" class="panel_state_content">
+
+                  <!-- 灰色背景 (矩形) -->
+                  <div id="u3065" class="ax_default _形状2" data-label="灰色背景">
+                    <div id="u3065_div" class=""></div>
+                    <!-- Unnamed () -->
+                    <div id="u3066" class="text" style="display:none; visibility: hidden">
+                      <p><span></span></p>
+                    </div>
+                  </div>
+
+                  <!-- 背景线条 (动态面板) -->
+                  <div id="u3067" class="ax_default" data-label="背景线条">
+                    <div id="u3067_state0" class="panel_state" data-label="State1" style="">
+                      <div id="u3067_state0_content" class="panel_state_content">
+
+                        <!-- 有色背景 (矩形) -->
+                        <div id="u3068" class="ax_default _形状2" data-label="有色背景">
+                          <div id="u3068_div" class=""></div>
+                          <!-- Unnamed () -->
+                          <div id="u3069" class="text" style="display:none; visibility: hidden">
+                            <p><span></span></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 滑块 (动态面板) -->
+                  <div id="u3070" class="ax_default" data-label="滑块">
+                    <div id="u3070_state0" class="panel_state" data-label="1" style="">
+                      <div id="u3070_state0_content" class="panel_state_content">
+
+                        <!-- Unnamed (矩形) -->
+                        <div id="u3071" class="ax_default _形状2">
+                          <div id="u3071_div" class=""></div>
+                          <!-- Unnamed () -->
+                          <div id="u3072" class="text" style="display:none; visibility: hidden">
+                            <p><span></span></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u3073" class="ax_default _默认样式">
+        <div id="u3073_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u3074" class="text">
+          <p><span>使用示例</span></p>
+        </div>
+      </div>
+
+      <!-- 滑动输入条 (动态面板) -->
+      <div id="u3075" class="ax_default" data-label="滑动输入条">
+        <div id="u3075_state0" class="panel_state" data-label="State1" style="">
+          <div id="u3075_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (矩形) -->
+            <div id="u3076" class="ax_default _文本段落2">
+              <div id="u3076_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u3077" class="text">
+                <p><span>1000</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u3078" class="ax_default _文本段落2">
+              <div id="u3078_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u3079" class="text">
+                <p><span>5000</span></p>
+              </div>
+            </div>
+
+            <!-- 滑动区域 (动态面板) -->
+            <div id="u3080" class="ax_default" data-label="滑动区域">
+              <div id="u3080_state0" class="panel_state" data-label="State1" style="">
+                <div id="u3080_state0_content" class="panel_state_content">
+
+                  <!-- 灰色背景 (矩形) -->
+                  <div id="u3081" class="ax_default _形状2" data-label="灰色背景">
+                    <div id="u3081_div" class=""></div>
+                    <!-- Unnamed () -->
+                    <div id="u3082" class="text" style="display:none; visibility: hidden">
+                      <p><span></span></p>
+                    </div>
+                  </div>
+
+                  <!-- 背景线条 (动态面板) -->
+                  <div id="u3083" class="ax_default" data-label="背景线条">
+                    <div id="u3083_state0" class="panel_state" data-label="State1" style="">
+                      <div id="u3083_state0_content" class="panel_state_content">
+
+                        <!-- 有色背景 (矩形) -->
+                        <div id="u3084" class="ax_default _形状2" data-label="有色背景">
+                          <div id="u3084_div" class=""></div>
+                          <!-- Unnamed () -->
+                          <div id="u3085" class="text" style="display:none; visibility: hidden">
+                            <p><span></span></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 滑块 (动态面板) -->
+                  <div id="u3086" class="ax_default" data-label="滑块">
+                    <div id="u3086_state0" class="panel_state" data-label="State1" style="">
+                      <div id="u3086_state0_content" class="panel_state_content">
+
+                        <!-- Unnamed (矩形) -->
+                        <div id="u3087" class="ax_default _形状2">
+                          <div id="u3087_div" class=""></div>
+                          <!-- Unnamed () -->
+                          <div id="u3088" class="text" style="display:none; visibility: hidden">
+                            <p><span></span></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 数值 (动态面板) -->
+            <div id="u3089" class="ax_default" data-label="数值">
+              <div id="u3089_state0" class="panel_state" data-label="1" style="">
+                <div id="u3089_state0_content" class="panel_state_content">
+
+                  <!-- 数值1 (气泡) -->
+                  <div id="u3090" class="ax_default _默认样式" data-label="数值1">
+                    <img id="u3090_img" class="img " src="images/滑动选择条_slider/数值1_u3090.png"/>
+                    <!-- Unnamed () -->
+                    <div id="u3091" class="text">
+                      <p><span>5000元</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="u3089_state1" class="panel_state" data-label="2" style="visibility: hidden;">
+                <div id="u3089_state1_content" class="panel_state_content">
+
+                  <!-- 数值2 (气泡) -->
+                  <div id="u3092" class="ax_default _默认样式" data-label="数值2">
+                    <img id="u3092_img" class="img " src="images/滑动选择条_slider/数值2_u3092.png"/>
+                    <!-- Unnamed () -->
+                    <div id="u3093" class="text">
+                      <p><span>5000元</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 滑动输入条 (动态面板) -->
+      <div id="u3094" class="ax_default" data-label="滑动输入条">
+        <div id="u3094_state0" class="panel_state" data-label="State1" style="">
+          <div id="u3094_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (矩形) -->
+            <div id="u3095" class="ax_default _文本段落2">
+              <div id="u3095_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u3096" class="text">
+                <p><span>15</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u3097" class="ax_default _文本段落2">
+              <div id="u3097_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u3098" class="text">
+                <p><span>45</span></p>
+              </div>
+            </div>
+
+            <!-- 滑动区域 (动态面板) -->
+            <div id="u3099" class="ax_default" data-label="滑动区域">
+              <div id="u3099_state0" class="panel_state" data-label="State1" style="">
+                <div id="u3099_state0_content" class="panel_state_content">
+
+                  <!-- 灰色背景 (矩形) -->
+                  <div id="u3100" class="ax_default _形状2" data-label="灰色背景">
+                    <div id="u3100_div" class=""></div>
+                    <!-- Unnamed () -->
+                    <div id="u3101" class="text" style="display:none; visibility: hidden">
+                      <p><span></span></p>
+                    </div>
+                  </div>
+
+                  <!-- 背景线条 (动态面板) -->
+                  <div id="u3102" class="ax_default" data-label="背景线条">
+                    <div id="u3102_state0" class="panel_state" data-label="State1" style="">
+                      <div id="u3102_state0_content" class="panel_state_content">
+
+                        <!-- 有色背景 (矩形) -->
+                        <div id="u3103" class="ax_default _形状2" data-label="有色背景">
+                          <div id="u3103_div" class=""></div>
+                          <!-- Unnamed () -->
+                          <div id="u3104" class="text" style="display:none; visibility: hidden">
+                            <p><span></span></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 滑块 (动态面板) -->
+                  <div id="u3105" class="ax_default" data-label="滑块">
+                    <div id="u3105_state0" class="panel_state" data-label="State1" style="">
+                      <div id="u3105_state0_content" class="panel_state_content">
+
+                        <!-- Unnamed (矩形) -->
+                        <div id="u3106" class="ax_default _形状2">
+                          <div id="u3106_div" class=""></div>
+                          <!-- Unnamed () -->
+                          <div id="u3107" class="text" style="display:none; visibility: hidden">
+                            <p><span></span></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 数值 (动态面板) -->
+            <div id="u3108" class="ax_default" data-label="数值">
+              <div id="u3108_state0" class="panel_state" data-label="1" style="">
+                <div id="u3108_state0_content" class="panel_state_content">
+
+                  <!-- 数值1 (气泡) -->
+                  <div id="u3109" class="ax_default _默认样式" data-label="数值1">
+                    <img id="u3109_img" class="img " src="images/滑动选择条_slider/数值1_u3090.png"/>
+                    <!-- Unnamed () -->
+                    <div id="u3110" class="text">
+                      <p><span>45天</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="u3108_state1" class="panel_state" data-label="2" style="visibility: hidden;">
+                <div id="u3108_state1_content" class="panel_state_content">
+
+                  <!-- 数值2 (气泡) -->
+                  <div id="u3111" class="ax_default _默认样式" data-label="数值2">
+                    <img id="u3111_img" class="img " src="images/滑动选择条_slider/数值2_u3092.png"/>
+                    <!-- Unnamed () -->
+                    <div id="u3112" class="text">
+                      <p><span>45天</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 滑动输入条 (动态面板) -->
+      <div id="u3113" class="ax_default" data-label="滑动输入条">
+        <div id="u3113_state0" class="panel_state" data-label="State1" style="">
+          <div id="u3113_state0_content" class="panel_state_content">
+
+            <!-- 滑动区域 (动态面板) -->
+            <div id="u3114" class="ax_default" data-label="滑动区域">
+              <div id="u3114_state0" class="panel_state" data-label="State1" style="">
+                <div id="u3114_state0_content" class="panel_state_content">
+
+                  <!-- 灰色背景 (矩形) -->
+                  <div id="u3115" class="ax_default _形状2" data-label="灰色背景">
+                    <div id="u3115_div" class=""></div>
+                    <!-- Unnamed () -->
+                    <div id="u3116" class="text" style="display:none; visibility: hidden">
+                      <p><span></span></p>
+                    </div>
+                  </div>
+
+                  <!-- 背景线条 (动态面板) -->
+                  <div id="u3117" class="ax_default" data-label="背景线条">
+                    <div id="u3117_state0" class="panel_state" data-label="State1" style="">
+                      <div id="u3117_state0_content" class="panel_state_content">
+
+                        <!-- 有色背景 (矩形) -->
+                        <div id="u3118" class="ax_default _形状2" data-label="有色背景">
+                          <div id="u3118_div" class=""></div>
+                          <!-- Unnamed () -->
+                          <div id="u3119" class="text" style="display:none; visibility: hidden">
+                            <p><span></span></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 滑块 (动态面板) -->
+                  <div id="u3120" class="ax_default" data-label="滑块">
+                    <div id="u3120_state0" class="panel_state" data-label="1" style="">
+                      <div id="u3120_state0_content" class="panel_state_content">
+
+                        <!-- Unnamed (矩形) -->
+                        <div id="u3121" class="ax_default _形状2">
+                          <div id="u3121_div" class=""></div>
+                          <!-- Unnamed () -->
+                          <div id="u3122" class="text">
+                            <p><span>&nbsp; </span></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 数值 (矩形) -->
+            <div id="u3123" class="ax_default _形状2" data-label="数值">
+              <img id="u3123_img" class="img " src="images/滑动选择条_slider/数值_u3123.png"/>
+              <!-- Unnamed () -->
+              <div id="u3124" class="text">
+                <p><span>10000元</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u3125" class="ax_default _文本段落2">
+              <div id="u3125_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u3126" class="text">
+                <p><span>5000</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u3127" class="ax_default _文本段落2">
+              <div id="u3127_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u3128" class="text">
+                <p><span>10000</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

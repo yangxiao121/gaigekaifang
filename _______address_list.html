@@ -1,0 +1,459 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>通讯录列表&nbsp; Address List</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=375, user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/_______address_list/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/_______address_list/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- 搜索栏 (动态面板) -->
+      <div id="u5811" class="ax_default" data-label="搜索栏">
+        <div id="u5811_state0" class="panel_state" data-label="State1" style="">
+          <div id="u5811_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (矩形) -->
+            <div id="u5812" class="ax_default _默认样式">
+              <div id="u5812_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u5813" class="text" style="display:none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u5814" class="ax_default _默认样式">
+              <div id="u5814_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u5815" class="text">
+                <p><span style="font-family:'FontAwesome';"></span><span style="font-family:'微软雅黑';"> 搜索</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u5811_state1" class="panel_state" data-label="State2" style="visibility: hidden;">
+          <div id="u5811_state1_content" class="panel_state_content">
+
+            <!-- Unnamed (矩形) -->
+            <div id="u5816" class="ax_default _默认样式">
+              <div id="u5816_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u5817" class="text" style="display:none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u5818" class="ax_default _默认样式">
+              <div id="u5818_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u5819" class="text">
+                <p><span style="font-family:'FontAwesome';"></span><span style="font-family:'微软雅黑';"> </span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u5820" class="ax_default _默认样式">
+              <div id="u5820_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u5821" class="text">
+                <p><span>取消</span></p>
+              </div>
+            </div>
+
+            <!-- 带清除按纽输入框 (文本框) -->
+            <div id="u5822" class="ax_default _默认样式" data-label="带清除按纽输入框">
+              <input id="u5822_input" type="text" value="A"/>
+            </div>
+
+            <!-- 清除 (SVG) -->
+            <div id="u5823" class="ax_default image1 ax_default_hidden" data-label="清除" style="display:none; visibility: hidden">
+              <img id="u5823_img" class="img " src="images/_____inputitem/清除_u2792.svg"/>
+              <!-- Unnamed () -->
+              <div id="u5824" class="text" style="display:none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 导航栏 (动态面板) -->
+      <div id="u5825" class="ax_default" data-label="导航栏">
+        <div id="u5825_state0" class="panel_state" data-label="State1" style="">
+          <div id="u5825_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (组合) -->
+            <div id="u5826" class="ax_default" data-left="0" data-top="0" data-width="375" data-height="45">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u5827" class="ax_default _默认样式">
+                <div id="u5827_div" class=""></div>
+                <!-- Unnamed () -->
+                <div id="u5828" class="text">
+                  <p><span>通讯录</span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Unnamed (SVG) -->
+            <div id="u5829" class="ax_default image1">
+              <img id="u5829_img" class="img " src="images/表单界面_form/u5361.svg"/>
+              <!-- Unnamed () -->
+              <div id="u5830" class="text" style="display:none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 列表 (动态面板) -->
+      <div id="u5831" class="ax_default" data-label="列表">
+        <div id="u5831_state0" class="panel_state" data-label="正常列表" style="">
+          <div id="u5831_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (矩形) -->
+            <div id="u5832" class="ax_default _默认样式">
+              <div id="u5832_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u5833" class="text">
+                <p><span>A</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u5834" class="ax_default _默认样式">
+              <div id="u5834_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u5835" class="text">
+                <p style="font-size:14px;"><span style="color:#999999;">埃米</span></p><p style="font-size:12px;"><span style="color:#C9C9C9;">Amy</span><span style="color:#999999;"> </span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u5836" class="ax_default _默认样式">
+              <div id="u5836_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u5837" class="text">
+                <p style="font-size:14px;"><span style="color:#999999;">贝蒂</span></p><p style="font-size:12px;"><span style="color:#CCCCCC;">Betty</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u5838" class="ax_default _默认样式">
+              <div id="u5838_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u5839" class="text">
+                <p><span>B</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u5840" class="ax_default _默认样式">
+              <div id="u5840_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u5841" class="text">
+                <p style="font-size:14px;"><span style="color:#999999;">安琪拉</span></p><p style="font-size:12px;"><span style="color:#CCCCCC;">Angela</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u5842" class="ax_default _默认样式">
+              <div id="u5842_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u5843" class="text">
+                <p style="font-size:14px;"><span style="color:#999999;">布莱恩</span></p><p style="font-size:12px;"><span style="color:#CCCCCC;">Brian </span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u5844" class="ax_default _默认样式">
+              <div id="u5844_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u5845" class="text">
+                <p style="font-size:14px;"><span style="color:#999999;">艾丽丝</span></p><p style="font-size:12px;"><span style="color:#CCCCCC;">Alice</span><span style="color:#999999;"> </span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u5846" class="ax_default _默认样式">
+              <div id="u5846_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u5847" class="text">
+                <p style="font-size:14px;"><span style="color:#999999;">巴巴拉</span></p><p style="font-size:12px;"><span style="color:#CCCCCC;">Barbara </span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u5848" class="ax_default _默认样式">
+              <div id="u5848_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u5849" class="text">
+                <p><span>C</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u5850" class="ax_default _默认样式">
+              <div id="u5850_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u5851" class="text">
+                <p style="font-size:14px;"><span style="color:#999999;">克里丝塔</span></p><p style="font-size:12px;"><span style="color:#C9C9C9;">Crystal</span><span style="color:#999999;">&nbsp; &nbsp;&nbsp; </span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u5852" class="ax_default _默认样式">
+              <div id="u5852_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u5853" class="text">
+                <p style="font-size:14px;"><span style="color:#999999;">戴维</span></p><p style="font-size:12px;"><span style="color:#CCCCCC;">David&nbsp; &nbsp;&nbsp; </span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u5854" class="ax_default _默认样式">
+              <div id="u5854_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u5855" class="text">
+                <p><span>D</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u5856" class="ax_default _默认样式">
+              <div id="u5856_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u5857" class="text">
+                <p style="font-size:14px;"><span style="color:#999999;">查尔斯</span></p><p style="font-size:12px;"><span style="color:#CCCCCC;">Charles&nbsp; &nbsp;&nbsp; </span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u5858" class="ax_default _默认样式">
+              <div id="u5858_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u5859" class="text">
+                <p style="font-size:14px;"><span style="color:#999999;">丹尼尔</span></p><p style="font-size:12px;"><span style="color:#CCCCCC;">Daniel&nbsp; &nbsp;&nbsp; </span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u5860" class="ax_default _默认样式">
+              <div id="u5860_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u5861" class="text">
+                <p style="font-size:14px;"><span style="color:#999999;">克里丝</span></p><p style="font-size:12px;"><span style="color:#CCCCCC;">Chris</span><span style="color:#999999;">&nbsp; &nbsp;&nbsp; </span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u5862" class="ax_default _默认样式">
+              <div id="u5862_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u5863" class="text">
+                <p style="font-size:14px;"><span style="color:#999999;">戴安娜</span></p><p style="font-size:12px;"><span style="color:#CCCCCC;">Diana&nbsp; &nbsp;&nbsp; </span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u5864" class="ax_default _默认样式">
+              <div id="u5864_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u5865" class="text">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u5866" class="ax_default _默认样式">
+              <div id="u5866_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u5867" class="text">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u5868" class="ax_default _默认样式">
+              <div id="u5868_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u5869" class="text">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u5870" class="ax_default _默认样式">
+              <div id="u5870_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u5871" class="text">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u5872" class="ax_default _默认样式">
+              <div id="u5872_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u5873" class="text">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u5874" class="ax_default _默认样式">
+              <div id="u5874_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u5875" class="text">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u5876" class="ax_default _默认样式">
+              <div id="u5876_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u5877" class="text">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u5878" class="ax_default _默认样式">
+              <div id="u5878_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u5879" class="text">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u5880" class="ax_default _默认样式">
+              <div id="u5880_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u5881" class="text">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u5882" class="ax_default _默认样式">
+              <div id="u5882_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u5883" class="text">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u5884" class="ax_default _默认样式">
+              <div id="u5884_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u5885" class="text">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u5886" class="ax_default _默认样式">
+              <div id="u5886_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u5887" class="text">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u5888" class="ax_default _默认样式">
+              <div id="u5888_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u5889" class="text">
+                <p><span>A</span></p><p><span>B</span></p><p><span>C</span></p><p><span>D</span></p><p><span>E</span></p><p><span>F</span></p><p><span>G</span></p><p><span>H</span></p><p><span>I</span></p><p><span>J</span></p><p><span>K</span></p><p><span>Q</span></p><p><span>R</span></p><p><span>S</span></p><p><span>T</span></p><p><span>U</span></p><p><span>V</span></p><p><span>Y</span></p><p><span>Z</span></p><p><span>#</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u5831_state1" class="panel_state" data-label="搜索列表" style="visibility: hidden;">
+          <div id="u5831_state1_content" class="panel_state_content">
+
+            <!-- Unnamed (矩形) -->
+            <div id="u5890" class="ax_default _默认样式">
+              <div id="u5890_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u5891" class="text">
+                <p style="font-size:14px;"><span style="color:#999999;">埃米</span></p><p style="font-size:12px;"><span style="color:#C9C9C9;">Amy</span><span style="color:#999999;"> </span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u5892" class="ax_default _默认样式">
+              <div id="u5892_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u5893" class="text">
+                <p style="font-size:14px;"><span style="color:#999999;">安琪拉</span></p><p style="font-size:12px;"><span style="color:#CCCCCC;">Angela</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u5894" class="ax_default _默认样式">
+              <div id="u5894_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u5895" class="text">
+                <p style="font-size:14px;"><span style="color:#999999;">艾丽丝</span></p><p style="font-size:12px;"><span style="color:#CCCCCC;">Alice</span><span style="color:#999999;"> </span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u5896" class="ax_default _默认样式">
+              <div id="u5896_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u5897" class="text">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u5898" class="ax_default _默认样式">
+              <div id="u5898_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u5899" class="text">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u5900" class="ax_default _默认样式">
+              <div id="u5900_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u5901" class="text">
+                <p><span></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

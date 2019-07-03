@@ -298,6 +298,9 @@
 }
 .box_3 {
 }
+._文本段落2 {
+  text-align:left;
+}
 .icon {
 }
 .ellipse {
@@ -305,6 +308,12 @@
 .image1 {
 }
 .placeholder {
+}
+.box_21 {
+}
+.text_field {
+  color:#000000;
+  text-align:left;
 }
 .text_area {
   color:#000000;
@@ -317,29 +326,23 @@
   font-size:32px;
   text-align:left;
 }
+.line {
+}
+._形状2 {
+  font-family:'微软雅黑';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#666666;
+}
+.table_cell {
+}
 .label {
   font-size:14px;
   text-align:left;
 }
-._文本段落2 {
-  text-align:left;
+.shape {
 }
-.text_field {
+.image2 {
   color:#000000;
-  text-align:left;
-}
-.snapshot {
-}
-.box_21 {
-}
-.sticky_1 {
-  text-align:left;
-}
-.flow_shape {
-}
-.line {
-}
-.table_cell {
-}
-._形状2 {
 }
