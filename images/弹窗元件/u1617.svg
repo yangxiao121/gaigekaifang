@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg t="1513928763673" class="icon" style="" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="9156" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24"><defs><style type="text/css">@font-face {
+  font-family: "weel-translate";
+  font-style: normal;
+  font-weight: normal;
+  src: url("moz-extension://3f6133e6-5f59-43ec-8a7b-37267ca04603/fonts/weel-translate.ttf") format("truetype"), url("moz-extension://3f6133e6-5f59-43ec-8a7b-37267ca04603/fonts/weel-translate.woff") format("woff");
+}
+@font-face {
+  font-family: "weel-translate";
+  font-style: normal;
+  font-weight: normal;
+  src: url("moz-extension://3f6133e6-5f59-43ec-8a7b-37267ca04603/fonts/weel-translate.ttf") format("truetype"), url("moz-extension://3f6133e6-5f59-43ec-8a7b-37267ca04603/fonts/weel-translate.woff") format("woff");
+}
+</style></defs><path d="M813.84448 444.80512c0-203.85792-165.25312-369.12128-369.12128-369.12128-203.85792 0-369.1264 165.26336-369.1264 369.12128 0 203.86304 165.26848 369.1264 369.1264 369.1264 203.86816 0.00512 369.12128-165.26336 369.12128-369.1264z m-369.1264 295.76704c-163.33824 0-295.7568-132.40832-295.7568-295.7568 0-163.34336 132.41856-295.76704 295.7568-295.76704 163.34848 0 295.76192 132.42368 295.76192 295.76704 0 163.34336-132.40832 295.7568-295.76192 295.7568z m500.22912 150.44096l-218.22464-218.05568a38.24128 38.24128 0 0 0-54.0672 0 38.1696 38.1696 0 0 0 0 54.016l218.23488 218.06592a38.2464 38.2464 0 0 0 54.06208 0 38.18496 38.18496 0 0 0-0.00512-54.02624z m-386.10432-486.13376H330.60352c-12.60032 0-22.82496 8.93952-22.82496 19.96288v39.93088c0 11.0336 10.21952 19.968 22.82496 19.968h228.23936c12.61056 0 22.81984-8.9344 22.81984-19.968v-39.93088c0-11.02336-10.20928-19.96288-22.81984-19.96288z" p-id="9157" fill="#ffffff"></path></svg>

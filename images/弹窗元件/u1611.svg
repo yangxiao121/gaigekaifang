@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg t="1513928901539" class="icon" style="" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="10076" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24"><defs><style type="text/css">@font-face {
+  font-family: "weel-translate";
+  font-style: normal;
+  font-weight: normal;
+  src: url("moz-extension://3f6133e6-5f59-43ec-8a7b-37267ca04603/fonts/weel-translate.ttf") format("truetype"), url("moz-extension://3f6133e6-5f59-43ec-8a7b-37267ca04603/fonts/weel-translate.woff") format("woff");
+}
+@font-face {
+  font-family: "weel-translate";
+  font-style: normal;
+  font-weight: normal;
+  src: url("moz-extension://3f6133e6-5f59-43ec-8a7b-37267ca04603/fonts/weel-translate.ttf") format("truetype"), url("moz-extension://3f6133e6-5f59-43ec-8a7b-37267ca04603/fonts/weel-translate.woff") format("woff");
+}
+</style></defs><path d="M839.68 743.68c-14.08-5.12-29.44-1.28-39.68 10.24l0 0c-81.92 104.96-225.28 149.76-357.12 102.4C277.76 797.44 192 614.4 250.88 449.28c58.88-165.12 241.92-250.88 407.04-192 5.12 2.56 11.52 3.84 16.64 6.4-6.4 17.92-12.8 35.84-17.92 51.2-7.68 21.76-14.08 38.4-15.36 43.52 0 0 0 0 0 0-3.84 5.12-3.84 12.8-1.28 19.2 5.12 10.24 16.64 14.08 26.88 10.24 0 0 0 0 0 0l1.28 0 19.2-8.96 130.56-61.44 17.92-8.96 15.36-7.68c5.12-2.56 8.96-6.4 10.24-11.52 1.28-5.12 1.28-10.24-1.28-15.36l-7.68-15.36L844.8 239.36 783.36 108.8 774.4 89.6l0-1.28c0 0 0 0 0 0-5.12-10.24-16.64-14.08-26.88-8.96-6.4 2.56-10.24 8.96-11.52 15.36 0 0 0 0 0 0-2.56 5.12-7.68 21.76-15.36 43.52-6.4 16.64-12.8 35.84-20.48 56.32-5.12-2.56-11.52-5.12-16.64-6.4C478.72 115.2 256 221.44 183.04 424.96c-72.96 203.52 33.28 427.52 235.52 499.2 160 57.6 332.8 3.84 433.92-120.32 3.84-3.84 7.68-8.96 8.96-14.08C869.12 771.84 858.88 750.08 839.68 743.68z" p-id="10077" fill="#ffffff"></path></svg>
